@@ -35,12 +35,6 @@ public class GoldMine {
 
             }
         }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
-        }
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
             max = Math.max(max, dp[i][m - 1]);
