@@ -12,11 +12,8 @@ public class KeysKeyBoard {
         boolean check = false;
         for (int i = 4; i < arr.length; i++) {
             check = false;
-            // System.out.println(i + " " + i);
             for (int j = i - 1; j > 1; j--) {
-                // System.out.println(j + " " + j);
                 if (i % j == 0) {
-                    // System.out.println("**");
                     arr[i] = arr[j] + (i / j);
                     check = true;
                     break;
@@ -28,9 +25,6 @@ public class KeysKeyBoard {
 
         }
         System.out.println(arr[n]);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i] + " " + i);
-        }
 
     }
 
