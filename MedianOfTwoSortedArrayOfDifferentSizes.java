@@ -15,7 +15,7 @@ public class MedianOfTwoSortedArrayOfDifferentSizes {
             arr2[i] = obj.nextInt();
         }
         double ans=findMedianSortedArrays(arr1,arr2);
-        System.out.println(ans);;
+        System.out.println(ans);
     }
 
     public static double findMedianSortedArrays(int[] arr1, int[] arr2) 
