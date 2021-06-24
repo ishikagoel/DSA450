@@ -1,0 +1,1 @@
+{"name":"Local: kthElementInAsortedMatrix","url":"c:\\Users\\ishika\\Desktop\\dsa450\\kthElementInAsortedMatrix.java","tests":[{"id":1624520348376,"input":"3 3 1\n1 5 9\n2 13 14\n12 15 16","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ishika\\Desktop\\dsa450\\kthElementInAsortedMatrix.java","group":"local","local":true}
